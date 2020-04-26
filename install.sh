@@ -9,8 +9,7 @@ fi
 
 # clone from github
 git clone https://github.com/res876ttb/mytmux.git ~/.mytmux
-cd ~/.mytmux
 
 # creaet symbolic link to $HOME
-ln -s $PWD/.tmux.conf $HOME/
+ln -s ~/.mytmux/.tmux.conf $HOME/
 
